@@ -1,7 +1,5 @@
-.post {
-margin: auto;
-width: 500px;
-height: 600px;
+body {
+margin: 10px;
 }
 
 img {
@@ -9,7 +7,7 @@ img {
     height: 60%;
 }
 div.ellipsis {
-    margin-right: 10px;
+   
 }
 
 div.post {
@@ -22,6 +20,7 @@ div.post {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
 .post-header div {
      display: flex;
@@ -49,4 +48,11 @@ div.post-header div:last-child {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+.title {
+    margin-right: auto;
+    margin-left: 5px;
+}
+.title br {
+    margin-left: 5px;
 }
