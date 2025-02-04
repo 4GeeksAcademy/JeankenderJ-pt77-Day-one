@@ -12,7 +12,7 @@ div.ellipsis {
 
 div.post {
     width: 400px;
-    height: 300px;
+    border: 1px solid black;
     margin: auto;
     background: white;
 }
@@ -25,6 +25,8 @@ div.post {
 .post-header div {
      display: flex;
      align-items: center;
+     flex-direction: column;
+     line-height: 1px;
 }
 
 div.post-header div:first-child {
@@ -55,4 +57,8 @@ div.post-header div:last-child {
 }
 .title br {
     margin-left: 5px;
+}
+.logo {
+    font-size: 25px;
+    margin-top: 10px;
 }
